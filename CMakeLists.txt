@@ -24,6 +24,12 @@ endif()
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 message("Using Qt version: ${QT_VERSION}")
 
+if(QT_VERSION_MAJOR EQUAL "6")
+    set(DFM_VERSION_MAJOR 6)
+else()
+    set(DFM_VERSION_MAJOR "")
+endif()
+
 find_package(PkgConfig REQUIRED)
 
 # Install settings
