@@ -33,6 +33,12 @@ endif()
 
 # default
 
+if(QT_VERSION_MAJOR EQUAL "6")
+    set(DFM_VERSION_MAJOR 6)
+else()
+    set(DFM_VERSION_MAJOR "")
+endif()
+
 find_package(PkgConfig REQUIRED)
 
 # Install settings
