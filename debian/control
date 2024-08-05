@@ -18,8 +18,8 @@ Build-Depends:
  libglib2.0-dev,
  libudisks2-dev,
  libisoburn-dev,
- libmediainfo-dev,
- libsecret-1-dev
+ libsecret-1-dev,
+ libmediainfo-dev
 Standards-Version: 4.3.0
 Homepage: http://www.deepin.org
 #Vcs-Browser: https://salsa.debian.org/debian/util-dfm
